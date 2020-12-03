@@ -46,11 +46,17 @@ router.post('/order', function(req,res){
 });
 
 router.get('/show',function(req,res){
-    let id = req.params.CompanyName;
+    
     User.find({},function(err,order){
         console.log(order)
         res.json(order)
     });
+    
+});
+router.get('/show/:id',function(req,res){
+    let id = req.params.id;
+    User.findById(id,order)
+        res.json(order)
     
 })
 module.exports=router;
