@@ -1,0 +1,17 @@
+POST http://localhost:4000/form HTTP/1.1
+content-type: application/json
+
+{
+    "OrderNo":"3456",
+    "Date":"23.11.199",
+    "Name":"Komal",
+    "Address":"krishna Nagar",
+    "Tehsil":"Tumkur",
+    "District":"tumkur",
+    "PinCode":"572104",
+    "STate":"karnataka",
+    "Whatsapp":"7259279158",
+    "Contact":"7259279158",
+    "CompanyName":"OLT"
+}
+###
